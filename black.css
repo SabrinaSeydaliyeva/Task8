@@ -102,7 +102,6 @@ img {
 
 
   .text {
-    position: absolute;
     bottom: 28.88px;
     left: 76px;
     font-size: 10px;
@@ -129,7 +128,7 @@ img {
     padding-left: 37.35px;
     padding-right: 188.82px;
     padding-top: 23.3px;
-    flex-direction: column;
+    display: block;
   }
 
   img {
@@ -148,7 +147,6 @@ img {
 
 
   .text {
-    position: absolute;
     bottom: 48.99px;
     left: 37.5px;
     font-size: 10px;
@@ -169,14 +167,8 @@ img {
   }
 
   .box1 {
-    width: 100%;
-    height: 100px;
+    margin-bottom: 50px;
   }
 
-  .box2 {
-    width: 100%;
-    height: 800px;
-  }
-
-
+ 
 }
